@@ -351,7 +351,7 @@ export default function Main() {
                                                 <div key={item.id} className="p-4 border-b border-gray-200 dark:border-gray-800/30">
                                                     <div className="flex justify-between items-start mb-2">
                                                         <div className="text-blue-600 dark:text-blue-400 font-medium nunito break-all">
-                                                            {window.location.origin}/{item.id}
+                                                            {getWindowLocation}/{item.id}
                                                         </div>
                                                         <div className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 border border-blue-200 dark:border-blue-500/20 ml-2">
                                                             {item.clicks} clicks
@@ -439,7 +439,7 @@ export default function Main() {
                                                         <td className="px-6 py-4 whitespace-nowrap">
                                                             <div className="flex items-center space-x-1">
                                                                 <div className="text-blue-600 dark:text-blue-400 font-medium nunito">
-                                                                    {window.location.origin}/{item.id}
+                                                                    {getWindowLocation}/{item.id}
                                                                 </div>
                                                             </div>
                                                         </td>
